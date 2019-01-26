@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#image {
+    background-image: url("https://purr.objects-us-east-1.dream.io/i/mh08E.jpg");
+    width: 70vw;
+    height: 70vw;
+    max-width: 400px;
+    max-height: 400px;
+    margin: 15px;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: contain, cover;
+    border: 2px gray solid;
+}
+
+button {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    font-size: 1.5em;
+    margin: 20px 50px;
+}
