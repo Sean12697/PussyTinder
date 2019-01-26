@@ -1,4 +1,5 @@
 $(document).ready(() => {
+    swipe(0);
     $("#like").click(() => {swipe(1);});
     $("#hate").click(() => {swipe(-1);});
 });
