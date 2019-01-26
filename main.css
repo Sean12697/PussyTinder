@@ -33,3 +33,12 @@ button {
         margin: 20px 80px;
     }
 }
+
+@media screen and (max-width: 350px) {
+    button {
+        margin: 10px 20px;
+        width: 60px;
+        height: 60px;
+        font-size: 1.3em;
+    }
+}
